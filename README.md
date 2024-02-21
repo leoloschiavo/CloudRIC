@@ -1,4 +1,9 @@
 # CloudRIC
+
+CloudRIC is a system that meets specific reliability targets in 5G FEC processing while sharing pools of heterogeneous processors among DUs, which leads to more cost- and energy-efficient vRANs. The details of the solution are presented in XXX. 
+These repository provides a dataset, analyzed therein, with experiments carried out with different 5G LDPC decoding processors: (i) Intel FlexRAN library and two open-source alternative libraries on an Intel Xeon Gold 6240R CPU, and (ii) a proprietary driver on an NVIDIA GPU V100. 
+
+# Dataset
 Here we provide the datasets characterizing the latency and power consumption figures to decode LDPC-encoded transport blocks.
 
 - CPU_dataset.csv is the dataset for experiments run using Intel FlexRAN 19.04 LDPC library on an Intel Xeon Gold 6240R CPU core @ 2.40GHz <br>
@@ -23,7 +28,7 @@ Here we provide the datasets characterizing the latency and power consumption fi
 
 <br>
 
-- GPU_dataset.csv is the dataset for experiments run using cuBB SDK Alpha-3 library on an NVIDIA V100 GPU<br>
+- GPU_dataset.csv is the dataset for experiments using a propietary LDPC decoder on an NVIDIA V100 GPU<br>
   "nPRB": Number of allocated Physical Resource Blocks<br>
   "SNR_dB": SNR in dB measured at transmitting user<br>
   "MCS": MCS used for uplink transmission<br>
