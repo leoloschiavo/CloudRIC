@@ -1,7 +1,7 @@
 # CloudRIC
 Here we provide the datasets characterizing the latency and power consumption figures to decode LDPC-encoded transport blocks.
 
-- CPU_dataset.csv is the dataset for experiments run using Intel FlexRAN 19.04 LDPC library on an Intel Xeon Gold 6240R CPU core @ 2.40GHz
+- CPU_dataset.csv is the dataset for experiments run using Intel FlexRAN 19.04 LDPC library on an Intel Xeon Gold 6240R CPU core @ 2.40GHz <br>
   "nPRB": Number of allocated Physical Resource Blocks
   "SNR_dB": SNR in dB measured at transmitting user
   "MCS": MCS used for uplink transmission
