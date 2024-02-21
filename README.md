@@ -50,12 +50,11 @@ Here we provide the datasets characterizing the latency and power consumption fi
 
 <br>
 
-- OAI.csv is the dataset for experiments using the open-source LDPC decoder of OpenAirInterface on an Intel Xeon Gold 6240R CPU core @ 2.40GHz <br>
+- OAI.csv is the dataset for experiments using the open-source LDPC decoder of OpenAirInterface 2.0.0 on an Intel Xeon Gold 6240R CPU core @ 2.40GHz <br>
   "nPRB": Number of allocated Physical Resource Blocks<br>
   "SNR_dB": SNR in dB measured at transmitting user<br>
   "MCS": MCS used for uplink transmission<br>
   "Base_Graph": Base Graph type used for LDPC decoding (either 1 or 2)<br>
-  "TBS": Information bits of the Transport Block<br>
   "Codeblock_Length": Length in bits of the codeblock(s) composing the Transport Block<br>
   "Number_Codeblocks": Number of codeblocks composing the Transport Block<br>
   "Total_Bits": Total number of bits of the LDPC-encoded Transport Block<br>
@@ -73,7 +72,6 @@ Here we provide the datasets characterizing the latency and power consumption fi
   "SNR_dB": SNR in dB measured at transmitting user<br>
   "MCS": MCS used for uplink transmission<br>
   "Base_Graph": Base Graph type used for LDPC decoding (either 1 or 2)<br>
-  "TBS": Information bits of the Transport Block<br>
   "Codeblock_Length": Length in bits of the codeblock(s) composing the Transport Block<br>
   "Number_Codeblocks": Number of codeblocks composing the Transport Block<br>
   "Total_Bits": Total number of bits of the LDPC-encoded Transport Block<br>
