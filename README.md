@@ -28,7 +28,7 @@ Here we provide the datasets characterizing the latency and power consumption fi
 
 <br>
 
-- GPU_dataset.csv is the dataset for experiments using a propietary LDPC decoder on an NVIDIA V100 GPU<br>
+- GPU_dataset.csv is the dataset for experiments using a proprietary LDPC decoder on an NVIDIA V100 GPU<br>
   "nPRB": Number of allocated Physical Resource Blocks<br>
   "SNR_dB": SNR in dB measured at transmitting user<br>
   "MCS": MCS used for uplink transmission<br>
