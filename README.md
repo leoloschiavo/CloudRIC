@@ -1,6 +1,6 @@
 # CloudRIC
 
-CloudRIC is a system that meets specific reliability targets in 5G FEC processing while sharing pools of heterogeneous processors among DUs, which leads to more cost- and energy-efficient vRANs. The details of the solution are presented in XXX. 
+CloudRIC is a system that meets specific reliability targets in 5G FEC processing while sharing pools of heterogeneous processors among DUs, which leads to more cost- and energy-efficient vRANs. The details of the solution are presented in https://doi.org/10.1145/3636534.3649381. 
 These repository provides a dataset, analyzed therein, with experiments carried out with different 5G LDPC decoding processors: (i) Intel FlexRAN library and two open-source alternative libraries on an Intel Xeon Gold 6240R CPU, and (ii) a proprietary driver on an NVIDIA GPU V100. 
 
 # Dataset
